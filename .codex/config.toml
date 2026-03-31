@@ -1,0 +1,5 @@
+[mcp_servers.blender]
+command = "python3"
+args = ["-c", "import socket, sys; s = socket.socket(socket.AF_INET, socket.SOCK_STREAM); s.connect(('localhost', 9876)); import threading; threading.Thread(target=lambda: s.sendall(sys.stdin.buffer.read()), daemon=True).start(); sys.stdout.buffer.write(s.recv(65536))"]
+startup_timeout_sec = 15
+tool_timeout_sec = 120

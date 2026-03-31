@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Blender rolling backups (keep the main .blend files)
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend@
+
+# Local-only Claude settings
+.claude/settings.local.json
