@@ -43,7 +43,7 @@ All MCP clients use the same local Blender bridge on `localhost:9876`.
 
 ## Suggested repo workflow
 
-- Keep canonical scene files as `*.blend` (tracked with Git LFS).
+- Keep canonical scene files under `scenes/` as `*.blend` (tracked with Git LFS).
 - Ignore local Blender rolling backups (`*.blend1`, `*.blend2`, ...).
 - Commit often at milestone points: blocking, lighting pass, animation pass, render pass.
 

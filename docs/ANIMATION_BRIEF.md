@@ -28,7 +28,7 @@ Use this before asking an AI agent to build animation shots.
 
 ## Assets
 
-- Existing assets to use: `bubbles.blend` scene baseline.
+- Existing assets to use: `scenes/bubbles.blend` scene baseline.
 - Assets to create: camera path, keyframes, lighting rig polish, optional subtle fog volume.
 - External assets to import: none required for v1.
 
